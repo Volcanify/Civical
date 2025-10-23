@@ -6,7 +6,7 @@
 
 <nav class="flex items-center justify-between px-6 py-0.5 border-b bg-background text-foreground">
   <div class="flex items-center gap-6">
-    <a class="cursor-pointer font-semibold text-lg" href="/">
+    <a class="cursor-pointer font-semibold text-lg" href="{base}/">
       Civical
     </a>
 
