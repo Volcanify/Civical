@@ -8,7 +8,7 @@
 		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
-		"deploy": "gh-pages -d build"
+		"deploy": "pnpm build && gh-pages -d build -t"
 	},
 	"devDependencies": {
 		"@internationalized/date": "^3.10.0",
