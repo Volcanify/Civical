@@ -1,6 +1,7 @@
 <script>
   import * as NavigationMenu from "$lib/components/ui/navigation-menu/index.js";
   import Themer from "./themer.svelte";
+  import { base } from '$app/paths';
 </script>
 
 <nav class="flex items-center justify-between px-6 py-0.5 border-b bg-background text-foreground">
@@ -12,13 +13,13 @@
     <NavigationMenu.Root>
       <NavigationMenu.List class="flex space-x-6">
         <NavigationMenu.Item>
-          <NavigationMenu.Link class="cursor-pointer text-sm font-medium hover:text-primary transition-colors" href="/sieve-analysis">
+          <NavigationMenu.Link class="cursor-pointer text-sm font-medium hover:text-primary transition-colors" href="{base}/sieve-analysis">
             Sieve Analysis
           </NavigationMenu.Link>
         </NavigationMenu.Item>
 
         <NavigationMenu.Item>
-          <NavigationMenu.Link class="cursor-pointer text-sm font-medium hover:text-primary transition-colors" href="/mix-design">
+          <NavigationMenu.Link class="cursor-pointer text-sm font-medium hover:text-primary transition-colors" href="{base}/mix-design">
             Mix Design
           </NavigationMenu.Link>
         </NavigationMenu.Item>
@@ -31,7 +32,7 @@
     <NavigationMenu.Root>
       <NavigationMenu.List class="flex space-x-6">
         <NavigationMenu.Item>
-          <NavigationMenu.Link class="cursor-pointer text-sm font-medium hover:text-primary transition-colors" href="/about">
+          <NavigationMenu.Link class="cursor-pointer text-sm font-medium hover:text-primary transition-colors" href="{base}/about">
             About
           </NavigationMenu.Link>
         </NavigationMenu.Item>
