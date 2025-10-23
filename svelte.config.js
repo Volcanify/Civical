@@ -13,7 +13,8 @@ const config = {
       "@/*": "./path/to/lib/*",
     },
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/civical' : ''
+			base: process.env.NODE_ENV === 'production' ? '/civical' : '',
+			relative: false
 		}
 	}
 };
