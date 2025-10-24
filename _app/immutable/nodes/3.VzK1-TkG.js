@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import"../chunks/D5VRIxKs.js";import{f as a,b as p,n as e}from"../chunks/CuQ71izo.js";var i=a("<title>Civical - About</title> <p>This is the about page.</p>",1);function s(t){var o=i();e(2),p(t,o)}export{s as component};

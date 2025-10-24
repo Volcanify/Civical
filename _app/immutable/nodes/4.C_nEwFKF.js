@@ -1,0 +1,1 @@
+import"../chunks/DsnmJJEf.js";import"../chunks/D5VRIxKs.js";import{f as t,b as i,n as e}from"../chunks/CuQ71izo.js";var a=t("<title>Civical - Mix Design</title> <h2>Page for mix design, work in progress.</h2>",1);function s(o){var r=a();e(2),i(o,r)}export{s as component};
