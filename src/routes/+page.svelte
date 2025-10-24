@@ -2,6 +2,10 @@
   import { base } from '$app/paths';
 </script>
 
+<header>
+  <title>Civical</title>
+</header>
+
 <main class="flex flex-col items-center justify-center min-h-screen bg-background text-foreground px-4 py-8 space-y-12">
   <!-- Main title -->
   <h2 class="text-2xl font-medium text-center w-[50vw]">
