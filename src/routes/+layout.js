@@ -1,14 +1,18 @@
 export const prerender = true;
-import posthog from 'posthog-js'
+
+import posthog from 'posthog-js';
 import { browser } from '$app/environment';
 
+export const prerender = true;
+
 export const load = async () => {
-  if (browser) {
+  if (browser && !posthog.__loaded) {
     posthog.init('phc_WqSMXohypdxpBdGEFrJBIcTwzn0f1yKauzKY6UbxJHg', {
       api_host: 'https://us.i.posthog.com',
-      defaults: '2025-05-24',
-    })
-  }
+      autocapture: false,
+      capture_pageview: false,
+    });
 
-  return
+    posthog.__loaded = true;
+  }
 };
